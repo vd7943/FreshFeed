@@ -13,18 +13,18 @@ Interactive News Cards: Displays news articles in card format with hover effects
 Fixed Navigation Bar: Provides easy access to different sections and the search bar.
 Footer Links: Includes links to essential information such as Terms of Use, Privacy Policy, and Contact Us.
 
-#Technologies Used
+Technologies Used
 
-HTML5
-CSS3
-Media Queries for responsive design
-JavaScript
-Fetch API for getting news data
-DOM Manipulation for dynamic content
+HTML5,
+CSS3,
+Media Queries for responsive design,
+JavaScript,
+Fetch API for getting news data,
+DOM Manipulation for dynamic content &
 NewsAPI: For fetching the latest news articles
 
-#Getting Started
+Getting Started
 
 Prerequisites
-A modern web browser (e.g., Chrome, Firefox, Safari)
+A modern web browser (e.g., Chrome, Firefox, Safari),
 Internet connection
