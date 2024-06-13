@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshFeed</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assests/favicon_news.png" type="image/x-icon">
+    <link rel="stylesheet" href="media-queries.css">
+</head>
+<body>
+    
+    <nav>
+        <div class="main-nav container flex">
+            <div class="logo" onclick="reload()">
+                <img src="assests/default.png" alt="company logo">
+            </div>
+            <div class="nav-links">
+                <ul class="flex" id="nav-links">
+                    <li class="hover-link nav-items" id="sports" onclick="onNavItemClick('sports')">Sports</li>
+                    <li class="hover-link nav-items" id="finance" onclick="onNavItemClick('finance')">Finance</li>
+                    <li class="hover-link nav-items" id="politics" onclick="onNavItemClick('politics')">Politics</li>
+                </ul>
+            </div>
+            <div class="search-bar flex" id="search-bar">
+                <input type="text" class="news-input" id="search-text" placeholder="e.g. Science">
+                <button class="search-button" id="search-button">Search</button>
+            </div>
+            <a href="#" class="nav-toggle hover-link" id="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="cards-container container flex" id="cards-container">
+            
+        </div>
+    </main>
+
+    <template id="template-news-card">
+        <div class="card">
+            <div class="card-header">
+                <img src="https://via.placeholder.com/400x200" alt="news-img" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">This is the Title</h3>
+                <h6 class="news-source" id="news-source">End Gadget 12/06/2024</h6>
+                <p class="news-desc" id="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus exercitationem incidunt aliquid qui mollitia soluta tempore pariatur reprehenderit vel officiis, quidem quaerat veniam dolor vitae ad voluptates cupiditate illum accusamus!</p>
+            </div>
+        </div>
+    </template>
+
+    <!-- footer -->
+
+    <footer class="flex">
+            <div class="footer-main container flex">
+                <a href="#" class="hover-footer">Terms of Use</a>
+                <a href="#" class="hover-footer">About the FreshFeed</a>
+                <a href="#" class="hover-footer">Privacy Policy</a>
+                <a href="#" class="hover-footer">Cookies</a>
+                <a href="#" class="hover-footer">Help</a>
+                <a href="#" class="hover-footer">Do not share or sell our info</a>
+                <a href="#" class="hover-footer">Contact Us</a>
+                <a href="#" class="hover-footer">Rate Us</a>
+            </div>
+            <div class="footer-cpy container">
+                <p>Copyright 2024 FreshFeed. All rights reserved.  The FreshFeed is <i>not responsible for the content of external sites</i>. <b>Read about our approach to external linking.</b></p>
+            </div>
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/e4c730e2ad.js" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
