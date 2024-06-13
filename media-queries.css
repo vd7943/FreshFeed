@@ -1,0 +1,124 @@
+@media  screen and (max-width: 991px) {
+    
+    .cards-container{
+        justify-content: space-evenly;
+        
+    }
+}
+
+
+@media  screen and (max-width: 767px) {
+    
+    .nav-links ul{
+        font-size: 0.9rem;
+        gap: 10px;
+    }
+
+    .news-input{
+        width: 150px;
+    }
+
+    .search-button{
+        width: 90px;
+    }
+
+    .cards-container{
+        gap: 10px;
+    }
+
+    .card{
+        width: 300px;
+        min-height: 450px;
+    }
+
+    .card-header img{
+        height: 100%;
+    }
+
+    footer{
+        height: 100%;
+    }
+
+    .footer-main{
+        flex-direction: column;
+        padding-top: 20px;
+        gap: 20px;
+    }
+
+    .footer-cpy p{
+        text-align: center;
+        font-size: 0.6rem;
+        padding-bottom: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 479px){
+    
+    nav{
+        height: 70px;
+    }
+
+    .logo img{
+        padding-top: 5px;
+        width: 160px;
+        height: 50px;
+    }
+
+    .search-bar{
+        position: absolute;
+        background-color: white;
+        top: 100%;
+        width: 100%;
+        left: -100%;
+        margin-top: 120px;
+        margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-links ul{
+        flex-direction: column;
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+    }
+
+    .nav-links ul.active{
+        left: 0;
+    }
+
+    .search-bar.active{
+        left: 0;
+    }
+
+    .main-nav{
+        overflow: initial;
+    }
+
+    .nav-toggle{
+        display: block;
+        margin-right: 20px;
+    }
+
+    main{
+        margin-top: 50px;
+    }
+
+    .card{
+        width: 380px;
+        min-height: auto;
+    }
+
+    .footer-cpy p{
+        font-size: 0.38rem;
+    }
+
+    .footer-main{
+        font-size: 0.8rem;
+    }
+}
