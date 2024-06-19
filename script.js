@@ -23,7 +23,7 @@ function bindData(articles){
 
     cardContainer.innerHTML = "";
 
-    articles.forEach(article => {
+    articles.forEach((article) => {
         if(!article.urlToImage) return;
         const cardClone = newsCardTemplate.content.cloneNode(true);
         fillDataInCard(cardClone, article);
